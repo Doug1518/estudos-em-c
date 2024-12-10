@@ -15,7 +15,7 @@ int main() {
     arv.raiz = NULL;
     int opcao;
 
-    // Inserção de elementos na árvore
+    // InserÃ§Ã£o de elementos na Ã¡rvore
     do {
         printf("Digite o valor a ser inserido ou 0 para finalizar: ");
         scanf("%d", &opcao);
@@ -27,11 +27,11 @@ int main() {
         printf("\n");
     } while (opcao != 0);
 
-    // Impressão final da árvore
+    // ImpressÃ£o final da Ã¡rvore
     imprimir(arv.raiz, 0);
     printf("Quantidade de chaves: %d\n", quantidadeChaves(arv.raiz));
 
-    // Busca de elementos na árvore
+    // Busca de elementos na Ã¡rvore
     do {
         printf("Digite o valor a ser buscado ou 0 para finalizar: ");
         scanf("%d", &opcao);
@@ -41,7 +41,7 @@ int main() {
     } while (opcao != 0);
 
     /*
-    // Remoção de elementos da árvore
+    // RemoÃ§Ã£o de elementos da Ã¡rvore
     do {
         printf("Quantidade de chaves: %d\n", quantidadeChaves(arv.raiz));
         printf("Digite o valor a ser removido ou 0 para finalizar: ");
